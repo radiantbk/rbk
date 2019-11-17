@@ -2,11 +2,6 @@ import pickle
 import os
 import random
 
-'''def search_name(name,data):
-  for i,d in enumerate(data):
-    if d['name']==name:
-      return i,d '''
-
 class robot():
   def __init__(self,name,data):
     self.name =name
